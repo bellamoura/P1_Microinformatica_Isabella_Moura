@@ -1,0 +1,178 @@
+:root{
+    --color_01: #ff7b54;
+    --color_02: #ffb26b;
+    --color_03: #ffd56f;
+    --color_04: #939b62;
+    --color_05: #000;
+    --color_06: #fff;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    color: var(--color_05);
+ }
+
+ /* navbar */
+
+ .navbar{
+    background-color: var(--color_01);
+ }
+
+ .navbar .nav-item a:hover{
+    color: var(--color_06);
+ }
+
+ /* banner */
+
+.banner{
+    background-image: url(../img/9187929-svg\ \(1\).png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .row div img{
+    align-items: center;
+}
+
+.banner .formcolor{
+    background-color: var(--color_06);
+    box-shadow: .2px .2px 10px var(--color_05);
+}
+
+/* cursos */
+ main .cursos{
+    background-color: var(--color_03);
+}
+
+.cursos .row a img{
+    text-align: center;
+    transition: 0.5s;
+}
+
+.cursos .row div a:hover img{
+    transform: translateY(-10px);
+}
+
+.cursos .row h3{
+    text-align: center;
+}
+
+.cursos .row p{
+    text-align: justify;
+}
+
+.cursos .row{
+    text-align: center;
+}
+
+/* local */
+.local{
+    background-image: linear-gradient(to right, var(--color_02), var(--color_01));
+}
+
+.local .container{
+    width: fit-content;
+}
+
+.local .row div img{
+    width: 12vw;
+}
+
+/* depoimentos*/
+
+.depoimentos div{
+    padding: 1rem;
+    align-items: center;
+}
+
+.depoimentos div h4{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.depoimentos div p{
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color_01);
+}
+
+footer .row .contato p{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+footer .row .endereco p{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+footer .row .cursos a{
+    color: var(--color_05);
+    text-decoration: none;
+}
+
+footer .row .cursos a:hover{
+    color: var(--color_06);
+}
+
+footer .row .mais a{
+    color: var(--color_05);
+    text-decoration: none;
+}
+
+footer .row .mais a:hover{
+    color: var(--color_06);
+}
+
+.social-icons img{
+    transition: 0.5s;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+/* pg historia */
+
+.musica{
+    background-color: var(--color_03);
+}
+
+.artistas .row h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.artistas .row p{
+    text-align:justify;
+}
+
+.artistas .row img{
+    width: 250px;
+}
+
+.artistas .row{
+    text-align: center;
+}
+
+/* pg improvisacao */
+
+.improv .clearfix div img{
+    width: 32vw;
+}
+
+.improv{
+    background-color: var(--color_03);
+}
+
+.improv figure{
+    width:100% ;
+}
